@@ -1,0 +1,29 @@
+/* write your css here */
+
+
+/* .body {
+    
+    background-image: url("../src/Img/website\ background\ image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    
+} */
+
+
+
+.scrollbar::-webkit-scrollbar{
+    width: 6px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb{
+    border-radius: 6px;
+    background-color: grey;
+}
+
+.scrollbar-none::-webkit-scrollbar{
+    display: none;
+}
